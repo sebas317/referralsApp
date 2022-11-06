@@ -4,7 +4,7 @@ import FieldForm from '../../../../components/atoms/FieldForm'
 import Form from '../../../../components/molecules/Form'
 import FormButton from '../../../../components/atoms/FormButton'
 
-function reportpayment() {
+function ReportPayment() {
   return (
     <div className="w-full mx-auto h-screen border-2 lg:w-2/4 flex flex-col justify-center items-start gap-5 px-10">
       <Link href="/app/campaigns/" className='text-gray-500 underline'>
@@ -28,4 +28,4 @@ function reportpayment() {
   )
 }
 
-export default reportpayment
+export default ReportPayment

@@ -4,7 +4,7 @@ import React from "react";
 import Button from "../../../../../components/atoms/Button";
 import UserInfo from "../../../../../components/molecules/UserInfo";
 
-function users() {
+function Users() {
   const isAdmin = false;
   const myId = 2;
 
@@ -76,4 +76,4 @@ function users() {
   return <ListUsers />;
 }
 
-export default users;
+export default Users;

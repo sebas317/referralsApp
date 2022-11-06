@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import React from "react";
 import Button from "../../../components/atoms/Button";
 import UserInfo from "../../../components/molecules/UserInfo";
-function users() {
+function Users() {
 
   const { id } = useRouter().query; 
 
@@ -50,4 +50,4 @@ function users() {
   return <UserView />;
 }
 
-export default users;
+export default Users;

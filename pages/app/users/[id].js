@@ -2,7 +2,10 @@ import { useRouter } from 'next/router'
 import React from 'react'
 import Link from 'next/link';
 
-function user() {
+function User() {
+
+  const {id} = useRouter().query;
+
   return (
     <div className="flex flex-col mt-0 justify-center items-center mb-auto h-screen border-2 w-full mx-auto xl:w-2/4 xl:px-5">
       <Link href="/app/users/" className='text-gray-500 underline w-full text-left'>
@@ -35,4 +38,4 @@ function user() {
   )
 }
 
-export default user
+export default User

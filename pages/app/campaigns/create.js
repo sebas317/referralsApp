@@ -4,7 +4,7 @@ import FieldForm from '../../../components/atoms/FieldForm'
 import FormButton from '../../../components/atoms/FormButton'
 import Link from 'next/link';
 
-function create() {
+function Create() {
 
   const metodos = [
     {
@@ -55,4 +55,4 @@ function create() {
   )
 }
 
-export default create
+export default Create

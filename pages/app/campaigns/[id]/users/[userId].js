@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import React from 'react'
 import Link from 'next/link';
 
-function user() {
+function User() {
 
   const { id, userId } = useRouter().query;
 
@@ -38,4 +38,4 @@ function user() {
   )
 }
 
-export default user
+export default User

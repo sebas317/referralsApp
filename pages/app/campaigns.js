@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import Button from '../../components/atoms/Button'
 
-function campaigns() {
+function Campaigns() {
 
   const isAdmin = true;
 
@@ -90,4 +90,4 @@ function campaigns() {
   )
 }
 
-export default campaigns
+export default Campaigns

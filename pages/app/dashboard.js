@@ -3,7 +3,7 @@ import React from "react";
 import Button from "../../components/atoms/Button";
 import UserInfo from "../../components/molecules/UserInfo";
 
-function dashboard() {
+function Dashboard() {
   const email = "test@email.com";
 
   return (
@@ -24,4 +24,4 @@ function dashboard() {
   );
 }
 
-export default dashboard;
+export default Dashboard;

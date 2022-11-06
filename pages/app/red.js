@@ -1,9 +1,9 @@
 import React from 'react'
 
-function red() {
+function Red() {
   return (
     <div>red</div>
   )
 }
 
-export default red
+export default Red
